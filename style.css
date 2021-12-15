@@ -2,13 +2,20 @@
  margin-left: auto; 
  margin-right: auto;
 }
-body{
-    background-image: url(New\ Project.png);
-    background-position: center ;
+.fondo1{
+    background-image: url(pexels-tyler-lastovich-1671643.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-color: black;
+}
+.fondo2{
+    background-image: url(pexels-alex-fu-1229102.jpg);
+    background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
-    background-color: black;
+    height: 100%;
 }
 .contenedor{
     background:black;
@@ -61,9 +68,23 @@ body{
     opacity: 0.7;
 }
 .neon{
+    background-color: black;
     box-shadow: 0 0 10px hsl(0, 65%, 60%), 0 0 40px hsl(0, 65%, 60%), 0 0 80px hsl(0, 65%, 60%);
 }
-
+.footer{
+    position: relative;
+    top: 100px;
+    border-top: 5px solid white;
+    background-color: hsl(0, 65%, 60%);
+    width: 69%;
+    height: 100%;
+}
+.footer2{
+    border-top: 5px solid white;
+    background-color: hsl(0, 65%, 60%);
+    width: 69%;
+    height: 100%;
+}
    .cuadro{
        /*background-image:url(New\ Project2.png);*/
        color:white;
@@ -73,8 +94,6 @@ body{
     }
     .cuadro h1{
      text-align: center;
-     position: relative;
-     bottom:10px;
      font:'Signika', sans-serif;
      user-select:none;
     }
