@@ -72,10 +72,9 @@ body{
      font:bold 3.5vw/1.6 'Signika', sans-serif;
      user-select:none;
     }
-    .casillas{
-        display:flex;
+    .casillas{background-color: aliceblue;
         padding: 10px;
-        width: 1200px;
+        width: 100%;
         height: 100%;
     }
     .casillas div{
